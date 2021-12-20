@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styletour.css">
+    <link rel="stylesheet" href="./css/resitem.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favi.png"/>
+    <title>Đà Lạt - Lâm Đồng</title>
+    <script src="./Javascript/subscribe.js"></script>
+</head>
+<body>
+    <div class="header">
+        <!-- NAVBAR -->
+        <div class="row nav-PC">                
+            <div class="row header-nav">
+                <div class="header-logo"> 
+                    <a href="./index.html" class="header-logo-img"><img src="./img/Agoda_logo.png" alt=""></a>
+                </div>
+                <ul class="nav-list">
+                        <!-- NAV home -->
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-item-link">Trang chủ</a>
+                        </li>
+                        <!-- NAV Dich vu -->
+                        <li class="nav-item">
+                            <a href="#" class="nav-item-link">Dịch vụ</a>
+
+                            <div class="subnav">
+                                <ul class="subnav-ul">
+                                    <li >
+                                        <a href="" class="subnav-item-link">
+                                            Thuê xe
+                                        </a>
+                                    </li>
+                                    <li >
+                                        <a href="" class="subnav-item-link">
+                                            Vé máy bay
+                                        </a>
+                                    </li>
+                                    <li >
+                                        <a href="" class="subnav-item-link">
+                                            Bảo hiểm du lịch
+                                        </a>
+                                    </li>
+                            
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- NAV du lich -->
+                        <li class="nav-item">
+                        <a href="#" class="nav-item-link">Du lịch</a>
+
+                        <div class="subnav">
+                            <ul class="subnav-ul">
+                                <li >
+                                    <a href="" class="subnav-item-link">
+                                        Du lịch miền Bắc
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="" class="subnav-item-link">
+                                       Du lịch miền Trung 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="subnav-item-link">
+                                        Du lịch miền Nam
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="subnav-item-link">
+                                        Du lịch miền Tây
+                                    </a>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                        </li>
+                    
+                        <!-- NAV cam nang -->
+                        <li class="nav-item">
+                        <a href="#" class="nav-item-link">Cẩm nang du lịch</a>
+
+                        <div class="subnav">
+                            <ul class="subnav-ul">
+                                <li>
+                                    <a href="" class="subnav-item-link">
+                                        Mẹo du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="subnav-item-link">
+                                        Chia sẻ kinh nghiệm
+                                    </a>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                        </li>
+                         <!-- NAV gioi thieu -->
+                         <li class="nav-item">
+                            <a href="#" class="nav-item-link">Giới thiệu</a>     
+
+                            <div class="subnav">
+                                <ul class="subnav-ul">
+                                    <li class="subnav-item">
+                                        <a href="" class="subnav-item-link">
+                                            Về chúng tôi
+                                            </a>
+                                    </li>
+                                    <li class="subnav-item">
+                                        <a href="" class="subnav-item-link">
+                                            Lĩnh vực hoạt động
+                                             </a>
+                                    </li>
+                                    <li class="subnav-item">
+                                        <a href="" class="subnav-item-link">
+                                            Nhân sự
+                                            </a>
+                                    </li>
+                                    <li class="subnav-item">
+                                        <a href="" class="subnav-item-link">
+                                            Liên hệ
+                                            </a>
+                                    </li>
+                                    <li class="subnav-item">
+                                        <a href="" class="subnav-item-link">
+                                            Dự án sắp tới
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                </ul>
+            </div>
+            <div class="row icon-list">
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+        <div class="row nav-mobile-ic">
+            <label for="nav-mobile-input" class="nav-bar-mobile"><i class="fas fa-bars"></i></label>
+            <div class="nav-mobile-logo">
+                <img src="./img/Agoda_logo.png" alt="">
+            </div>
+            <div class="nav-bar-mobile-account"><a href=""><i class=" fas fa-user"></i></a></div>
+        </div>
+
+        <input type="checkbox" hidden name="" class="nav__input" id ="nav-mobile-input">
+        <label for="nav-mobile-input" class="nav-overlay-mobile"></label>
+
+        <div class="nav-mobile">
+            <label for="nav-mobile-input" class="nav-close-mobile"><i class="fas fa-times"></i></label>
+            <ul class="nav-mobile-list">
+                <li>
+                    <a href="./index.html" class="nav-mobile-link">Trang chủ</a>
+                </li>
+                <li>
+                    <a class="nav-mobile-link">Dịch vụ</a>
+
+                    <div class="subnav-mobile">
+                        <ul class="subnav-ul-mobile">
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Thuê xe
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Vé máy bay
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Bảo hiểm du lịch
+                                </a>
+                            </li>
+                    
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-mobile-link">Cẩm nang du lịch</a>
+                    <div class="subnav-mobile">
+                        <ul class="subnav-ul-mobile">
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Mẹo du lịch
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                   Chia sẻ kinh nghiệm
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-mobile-link">Giới thiệu</a>
+                    <div class="subnav-mobile">
+                        <ul class="subnav-ul-mobile">
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Về chúng tôi
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Lĩnh vực hoạt động
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Nhân sự
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Liên hệ
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Dự án sắp tới
+                                </a>
+                            </li>
+                    
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-mobile-link"> Du lịch</a>
+                    <div class="subnav-mobile">
+                        <ul class="subnav-ul-mobile">
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Du lịch miền Bắc
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                   Du lịch miền Trung 
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Du lịch miền Nam
+                                </a>
+                            </li>
+                            <li >
+                                <a href="" class="subnav-mobile-item-link">
+                                    Du lịch miền Tây
+                                </a>
+                            </li>
+                    
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-noidungtour">
+        <h2>Du lịch Đà Lạt - Lâm Đồng 6N5Đ từ Sài Gòn giá khuyến mãi</h2>
+        <div class="noidungtour">
+            <div class="content-introduce">
+                <div class="big-img">
+                    <img src="./img/halongitem4.jpg" alt="">
+                </div>
+                <ul class="mobile-infor-booking">
+                    <div>
+                        <h3>Du lịch Hè - Tour Du lịch Hà Nội - Yên Tử - Vịnh Hạ Long - Sa Pa từ Sài Gòn</h3>
+                        <li class="row">
+                            <h4>Mã tour</h4>
+                            <p>15855</p>
+                        </li>
+                        <li class="row">
+                            <h4>Thời gian</h4>
+                            <p>5 ngày 4 đêm</p>
+                        </li>
+                        <li class="row">
+                            <h4>Khởi hành</h4>
+                            <p>01/12; 05/12; 07/12</p>
+                        </li>
+                        <li class="row">
+                            <h4>Vận chuyển</h4>
+                            <p>Xe du lịch, máy bay</p>
+                        </li>
+                        <li class="row">
+                            <h4>Xuất phát</h4>
+                            <p>Từ Sài Gòn</p>
+                        </li>
+                    </div>
+                </ul>
+                <div class="lichtrinh">
+                    <h2 class="capital"><i class="fas fa-map-signs"></i>Lịch trình</h2>
+                    <hr>
+                    <ul class="ngay">
+                        <h3><span><i class="far fa-dot-circle"></i>NGÀY 1 |</span> TP.HCM – ĐÀ LẠT (Ăn sáng, trưa, chiều)</h3>
+                        <li class="buoi">
+                            <h4>Sáng: Xe và Hướng Dẫn Viên Du Lịch Việt đón Quý khách tại điểm hẹn, khởi hành đi Đà Lạt.</h4>
+                            <ul>
+                                <li>Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi Hà Nội.</li>
+                                <li>Đến sân bay Nội Bài, hướng dẫn viên đón đoàn Khởi hành đến Hạ Long, trên đường dừng chân tham quan núi Yên Tử - ngọn núi cao 1068m so với mực nước biển, một thắng cảnh thiên nhiên còn lưu giữ hệ thống các di tích lịch sử văn hóa gắn với sự ra đời, hình thành và phát triển của thiền phái Trúc Lâm Yên Tử, được mệnh danh là “đất tổ Phật giáo Việt Nam”.</li>
+                            </ul>
+                        </li>
+                        <li class="buoi">
+                            <h4>Trưa: Dùng cơm trưa tại nhà hàng.</h4>
+                            <ul>
+                                <li>Tham quan Thiền Viện Trúc Lâm, đi cáp treo qua đồi Rôbin (chi phí tự túc), ngắm cảnh rừng thông, hồ Tuyền Lâm, núi Phượng Hoàng từ trên cao.</li>
+                                <li>Đoàn khởi hành về thành phố Hạ Long.</li>
+                            </ul>
+                        </li>
+                        <li class="buoi">
+                            <h4>Tối: Dùng cơm tối, nhận phòng nghỉ ngơi</h4>
+                            <ul>
+                                <li>Quý khách tự do dạo phố, mua sắm tại chợ đêm hoặc tham gia khu Sunworld Hạ Long Park với tất cả khu trò chơi trong nhà, ngoài trời hoành tráng có các khu Công viên Rồng, Cáp treo Nữ Hoàng vòng quay Sun wheel…(chi phí tự túc).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="ngay">
+                        <h3><span><i class="far fa-dot-circle"></i>NGÀY 2 |</span> TP.HCM – HÀ NỘI - HẠ LONG (Ăn trưa, chiều)</h3>
+                        <li class="buoi">
+                            <h4>Sáng: Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất trước giờ bay ít nhất hai tiếng.</h4>
+                            <ul>
+                                <li>Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi Hà Nội.</li>
+                                <li>Đến sân bay Nội Bài, hướng dẫn viên đón đoàn Khởi hành đến Hạ Long, trên đường dừng chân tham quan núi Yên Tử - ngọn núi cao 1068m so với mực nước biển, một thắng cảnh thiên nhiên còn lưu giữ hệ thống các di tích lịch sử văn hóa gắn với sự ra đời, hình thành và phát triển của thiền phái Trúc Lâm Yên Tử, được mệnh danh là “đất tổ Phật giáo Việt Nam”.</li>
+                            </ul>
+                        </li>
+                        <li class="buoi">
+                            <h4>Trưa: Dùng cơm trưa.</h4>
+                            <ul>
+                                <li>Quý khách lên núi bằng cáp treo (chi phí cáp treo tự túc), tham quan chùa Hoa Yên, Bảo Tháp, Trúc Lâm Tam Tổ, Hàng Tùng 700 tuổi…xuống núi tham quan Thiền Viện Trúc Lâm với quả cầu Như Ý nặng 6 tấn được xếp kỷ lục guiness Việt Nam.</li>
+                                <li>Đoàn khởi hành về thành phố Hạ Long.</li>
+                            </ul>
+                        </li>
+                        <li class="buoi">
+                            <h4>Chiều: Dùng bữa chiều. Nghỉ đêm tại Hạ Long.</h4>
+                            <ul>
+                                <li>Quý khách tự do dạo phố, mua sắm tại chợ đêm hoặc tham gia khu Sunworld Hạ Long Park với tất cả khu trò chơi trong nhà, ngoài trời hoành tráng có các khu Công viên Rồng, Cáp treo Nữ Hoàng vòng quay Sun wheel…(chi phí tự túc).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="ngay">
+                        <h3><span><i class="far fa-dot-circle"></i>NGÀY 3 |</span> TP.HCM – HÀ NỘI - HẠ LONG (Ăn trưa, chiều)</h3>
+                        <li class="buoi">
+                            <h4>Sáng: Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất trước giờ bay ít nhất hai tiếng.</h4>
+                            <ul>
+                                <li>Đại diện công ty Du Lịch Việt đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi Hà Nội.</li>
+                                <li>Đến sân bay Nội Bài, hướng dẫn viên đón đoàn Khởi hành đến Hạ Long, trên đường dừng chân tham quan núi Yên Tử - ngọn núi cao 1068m so với mực nước biển, một thắng cảnh thiên nhiên còn lưu giữ hệ thống các di tích lịch sử văn hóa gắn với sự ra đời, hình thành và phát triển của thiền phái Trúc Lâm Yên Tử, được mệnh danh là “đất tổ Phật giáo Việt Nam”.</li>
+                            </ul>
+                        </li>
+                        <li class="buoi">
+                            <h4>Trưa: Dùng cơm trưa.</h4>
+                            <ul>
+                                <li>Quý khách lên núi bằng cáp treo (chi phí cáp treo tự túc), tham quan chùa Hoa Yên, Bảo Tháp, Trúc Lâm Tam Tổ, Hàng Tùng 700 tuổi…xuống núi tham quan Thiền Viện Trúc Lâm với quả cầu Như Ý nặng 6 tấn được xếp kỷ lục guiness Việt Nam.</li>
+                                <li>Đoàn khởi hành về thành phố Hạ Long.</li>
+                            </ul>
+                        </li>
+                        <li class="buoi">
+                            <h4>Chiều: Dùng bữa chiều. Nghỉ đêm tại Hạ Long.</h4>
+                            <ul>
+                                <li>Quý khách tự do dạo phố, mua sắm tại chợ đêm hoặc tham gia khu Sunworld Hạ Long Park với tất cả khu trò chơi trong nhà, ngoài trời hoành tráng có các khu Công viên Rồng, Cáp treo Nữ Hoàng vòng quay Sun wheel…(chi phí tự túc).</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="dichvu">
+                    <h2 class="capital"><i class="fas fa-map-signs"></i>Dịch vụ bao gồm và không bao gồm</h2>
+                    <hr>
+                    <p class="extra">Giờ bay có thể thay đổi theo quy định của hàng không. Du Lịch Việt sẽ thay đổi chương trình cho phù hợp với giờ bay mới nhưng sẽ không chịu trách nhiệm về các khoản chi phí phát sinh</p>
+                    <div class="baogom">
+                        <h4>Giá tour bao gồm:</h4>
+                        <ul>
+                            <li>Xe tham quan (xe 16 chỗ, 29 chỗ, 35 chỗ, 45 chỗ) tùy theo số lượng khách thực tế trên chuyến đi</li>
+                            <li>Tại Nha Trang: khách sạn tiêu chuẩn tương đương 4 sao: LesCham, .. hoặc tương đương, khách sạn đầy đủ tiện nghi 2 hoặc 3 khách người lớn/ phòng. Nếu lẻ người thứ 3, đóng phụ phí phòng đơn 1.200.000đ hoặc ngủ ghép phòng 3 khách.</li>
+                            <li>Tại Đà Lạt: Khách sạn 2 sao: Sweet Lavender, ... (hoặc tương đương) đầy đủ tiện nghi, phòng 4 (4 khách/ phòng)</li>
+                            <li>Khách sạn 3 sao tại Hà Nội: MoonView, … hoặc tương đương.</li>
+                            <li>Khách sạn 3 sao tại Sapa: Mây Sapa, Mây Hồ, Hương Sơn, ... hoặc tương đương.</li>
+                            <li>Khách sạn 3 sao tại Hạ Long: Sea Star , Newstar , ... hoặc tương đương.</li>
+                            <li>Hướng dẫn viên tiếng Việt vui vẻ nhiệt tình suốt chuyến đi.</li>
+                            <li>Ăn uống theo chương trình: </li>
+                            <ul class="sublist">
+                                <li>Ăn sáng: 5 bữa ăn sáng (3 bữa sáng tô + ly, 2 bữa buffet sáng tại khách sạn)</li>
+                                <li>Ăn chính: 9 bữa chính tiêu chuẩn 120.000 đồng/bữa.</li>
+                            </ul>
+                            <li>Phòng 4: </li>
+                            <ul class="sublist">
+                                <li>Phòng 4 nếu ở 3 khách/ phòng, phụ thu thêm 300.000đ/ khách.</li>
+                                <li>Phòng 4 nếu ở 3 khách/ phòng, phụ thu thêm 300.000đ/ khách.</li>
+                                <li>Phòng 4 nếu ở 1 khách/ phòng, phụ thu thêm 2.400.000đ/ khách.</li>
+                            </ul>
+                            <li>Bảo hiểm với mức bồi thường tối đa 100.000.000 đồng/trường hợp. Không áp dụng cho khách từ 80 tuổi trở lên.</li>
+                            <li>Quà tặng: nón du lịch Việt, nước, khăn lạnh.</li>
+                        </ul>
+                    </div>
+                    <div class="khongbaogom">
+                        <h4>Không bao gồm:</h4>
+                        <ul>
+                            <li>Bia hay nước ngọt trong các bữa ăn.</li>
+                            <li>Chi phí cá nhân: điện thoại, giặt ủi, …</li>
+                            <li>Chi phí cáp treo YênTử, Fansipan, Sunworld Hạ Long,…</li>
+                            <li>Vé cáp treo Vinpearl Land + bữa ăn chiều tại Vinpearl.</li>
+                            <li>Thuế VAT.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-booking">
+                <ul class="infor-booking">
+                    <div>
+                        <h3>Du lịch Hè - Tour Du lịch Hà Nội - Yên Tử - Vịnh Hạ Long - Sa Pa từ Sài Gòn</h3>
+                        <li class="row">
+                            <h4>Mã tour</h4>
+                            <p>15855</p>
+                        </li>
+                        <li class="row">
+                            <h4>Thời gian</h4>
+                            <p>5 ngày 4 đêm</p>
+                        </li>
+                        <li class="row">
+                            <h4>Khởi hành</h4>
+                            <p>01/12; 05/12; 07/12</p>
+                        </li>
+                        <li class="row">
+                            <h4>Vận chuyển</h4>
+                            <p>Xe du lịch, máy bay</p>
+                        </li>
+                        <li class="row">
+                            <h4>Xuất phát</h4>
+                            <p>Từ Sài Gòn</p>
+                        </li>
+                    </div>
+                </ul>
+                <div class="register">
+                    <h2>Giá từ: 7,599,999 đ</h2>
+                    <input value="ĐĂNG KÝ" type="submit" class="btn-register"></button>
+                </div>
+                <div class="gioithieu">
+                    <div class="main-gt">
+                        <div class="row item">
+                            <div class="gt-item-img">
+                                <a href="./HaLong.html"><img class ="image" src="./img/halongitem1.jpg" alt=""></a> 
+                            </div>
+                            <div class="gt-item-content">
+                                <a href="./HaLong.html">Tour Hạ Long - Yên Tử</a> 
+                                <p>Giá từ: 4,999,999 đ</p>
+                                <p>Thời gian: 5 ngày 4 đêm</p>
+                            </div>
+                        </div>
+                        <div class="row item">
+                            <div class="gt-item-img">
+                                <a href="./HoiAn.html"><img class ="image" src="./img/halongitem3.jpg" alt=""></a> 
+                            </div>
+                            <div class="gt-item-content">
+                                <a href="./HoiAn.html">Tour Đà Nẵng - Hội An</a> 
+                                <p>Giá từ: 3,999,999 đ</p>
+                                <p>Thời gian: 3 ngày 2 đêm</p>
+                            </div>
+                        </div>
+                        <div class="row item">
+                            <div class="gt-item-img">
+                                <a href="./Hue.html"><img class ="image" src="./img/halongitem2.jpg" alt=""></a> 
+                            </div>
+                            <div class="gt-item-content">
+                                <a href="./Hue.html">Tour Đà Nẵng - Huế</a> 
+                                <p>Giá từ: 8,999,999 đ</p>
+                                <p>Thời gian: 6 ngày 5 đêm</p>
+                            </div>
+                        </div>
+                        <div class="row item">
+                            <div class="gt-item-img">
+                                <a href="./NhaTrang.html"><img class ="image" src="./img/halongitem5.jpg" alt=""></a> 
+                            </div>
+                            <div class="gt-item-content">
+                                <a href="./NhaTrang.html">Tour Nha Trang - Khánh Hòa</a> 
+                                <p>Giá từ: 2,999,999 đ</p>
+                                <p>Thời gian: 2 ngày 1 đêm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="main-footer">
+            <div class="row body-footer">
+                <div class="body-footer-section">
+                    <div class="footer-img">
+                        <img src="./img/Agoda_logo.png" alt="">
+                    </div>
+                    <p class="footer-img-text">
+                        <b> Địa Chỉ Và Thông Tin Liên Hệ </b>                       
+                    </p>
+                    <div class="footer-infor">
+                        <div class="footer-infor-section">
+                            <i class="fas fa-envelope"></i>
+                            <a href="">nhom8webcoban@gmail.com</a>
+                        </div>
+                        <div class="footer-infor-section">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="">010285710</a>
+                        </div>
+                        <div class="footer-infor-section">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="">273 An D. Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="body-footer-section">
+                    <h2 class="head-text-recent-post">Bài Viết Gần Đây</h2>
+                    <div class="body-recent-post">
+                        <div class="body-recent-post-item">
+                            <a href="./thiennhienhungvi.html" class="sub-text-subscribe recent-post-location"><b>Thiên nhiên hùng vĩ của Việt Nam</b></a>
+                            <a href="./thiennhienhungvi.html" class="recent-post-time">Ngày 5 tháng 2 năm 2021</a>
+                        </div>
+                        <div class="body-recent-post-item">
+                            <a href="./vanhoa.html" class="sub-text-subscribe recent-post-location"><b>Văn hóa Việt Nam đặc sắc như thế nào ?</b></a>
+                            <a href="./vanhoa.html" class="recent-post-time">Ngày 7 tháng 3 năm 2021</a>
+                        </div>
+                        <div class="body-recent-post-item">
+                            <a href="./amthucphongphu.html" class="sub-text-subscribe recent-post-location"><b>Khám phá ẩm thực Việt Nam</b></a>
+                            <a href="./amthucphongphu.html" class="recent-post-time">Ngày 10 tháng 4 năm 2021</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="body-footer-section">
+                    <h2 class="head-text-subscribe">Đăng kí nhận thông báo</h2>
+                    <p class="sub-text-subscribe">Đăng kí ngay để nhận thông báo về Tour hay các bài đăng mới nhất</p>
+                    <div class="body-subscribe">
+                        <form action="" class="form-subscribe">
+                            <input type="text" id="user" placeholder="Tên" class="form-name">
+                            <input type="text" id="email" placeholder="Email" class="form-email">
+                            <button onclick="subscribe_footer()" class="form-submit">ĐĂNG KÝ</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="body-footer-section">
+                    <h2 class="head-text-social-network">Mạng xã hội</h2>
+                    <p class="sub-text-subscribe social-sub-text">Các trang mạng xã hội của chúng tôi, like và subscribe nhé</p>
+                    <div class="row body-social-network">
+                        <a href="https://www.facebook.com/van.thong.16548/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.agoda.com/"><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <p><span>Powered by @</span> Nhom 8, 2021</p>
+        </div>
+    </div> 
+</body>
+</html>

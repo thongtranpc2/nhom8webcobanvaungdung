@@ -1,0 +1,217 @@
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.image
+{
+    object-fit: cover;
+}
+/* PHAN NOI DUNG */
+.main-noidungtour{
+    width: 90%;
+    margin: 60px auto 0px auto;
+}
+.noidungtour{
+    margin-top: 50px;
+}
+.main-noidungtour ul{
+    list-style: none;
+}
+.main-noidungtour >h2{
+    color: var(--boldmain-color);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.capital{
+    margin-top: 20px;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+.capital i{
+    margin-right: 10px;
+}
+
+.noidungtour{
+    display: flex;
+    justify-content: space-around;
+}
+.content-introduce{
+    flex: 2;
+    text-align: justify;
+    padding-right: 15px;
+}
+.content-booking{
+    flex: 1;
+    padding-left: 15px;
+}
+/* LICH TRINH */
+/* Ngay */
+.ngay{
+    margin-top: 30px;
+}
+.ngay h3 span
+{
+    color: var(--main-color);
+}
+.ngay h3 i
+{
+    margin-right: 10px;
+}
+/* Buoi */
+.buoi{
+    margin-left: 28px;
+}
+.buoi h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}
+.buoi li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+/* DICH VU */
+.dichvu >div{
+    margin-top: 10px;
+}
+.dichvu .extra
+{
+    margin-top: 10px;
+}
+.dichvu >div h4{
+    margin-bottom: 5px;
+}
+.dichvu li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.dichvu .sublist li{
+    margin-left: 20px;
+}
+.dichvu .sublist li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.infor-booking{
+    border: 1px solid gray;
+}
+.infor-booking div{
+    padding: 15px 20px;
+}
+.infor-booking h3{
+    color: var(--main-color);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.infor-booking li{
+    padding: 10px 0px;
+    border-top: 1px solid gray;
+}
+
+.infor-booking li h4{
+    font-weight: 500;
+}
+.mobile-infor-booking{
+    border: 1px solid gray;
+    display: none;
+}
+.mobile-infor-booking div{
+    padding: 15px 20px;
+}
+.mobile-infor-booking h3{
+    color: var(--main-color);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mobile-infor-booking li{
+    padding: 10px 0px;
+    border-top: 1px solid gray;
+}
+
+.mobile-infor-booking li h4{
+    font-weight: 500;
+}
+
+/* DANG KY */
+.content-booking{
+    position: relative;
+}
+.register{
+    text-align: center;
+    margin-top: 40px;
+    background: linear-gradient(to right, #f06c44, var(--main-color));
+    border-radius: 6px;
+}
+.register h2{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.btn-register{
+    width: 90%;
+    margin: 30px 0px 20px 0px;
+    border: none;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 15px;
+    background-color:#355c7d;
+    border-radius: 4px;
+    padding: 15px;
+    
+}
+.btn-register:hover {
+    color: #355c7d;
+    background-color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* GIOI THIEU */
+.gioithieu{
+    margin-top: 40px;
+}
+
+.item{
+    margin-bottom: 10px;
+    align-items: center;
+}
+.gt-item-img{
+    flex: 2;
+    height: calc(0.073*100vw);
+}
+.gt-item-content{
+    flex: 3;
+    margin-left: 20px;
+    height: 100%;
+    text-align: center;
+}
+.gt-item-content a{
+    display: inline-block;
+    text-decoration: none;
+    color: #355c7d;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.gt-item-content a:hover{
+    transition: 0.2s;
+    color: #0a1722;
+}
+
+
+
+
+
+

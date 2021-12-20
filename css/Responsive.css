@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+
+.amthuc{
+    margin: 0em;
+    padding: 1em 6em;
+    background-image: url(https://webdacsan.net/wp-content/uploads/2021/03/am-thuc-viet-nam.jpg);
+}
+
+.vanhoa{
+    margin: 0em;
+    padding: 1em 6em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9QRk2xRe9Q28Iu8xIYzD1LkarircDVmIaA&usqp=CAU);
+}
+.thiennhien{
+    margin: 0em;
+    padding: 1em 6em;
+    background-image: url(https://toplist.vn/images/800px/sapa-125679.jpg);
+}
+
+/* Article */
+h1 {   margin-top: 0.3em;
+    line-height: 2rem;
+    color:rgb(224, 146, 20)
+}
+
+article {
+    margin-top: 5em;
+    padding: 5px 16px;
+    line-height: 1.6rem;
+    background-color: blanchedalmond;
+    
+}
+
+article img {
+    width: 640px;
+    max-width: 100%;
+    display: block;
+    margin: 3px auto;
+    
+}
+article >ul> li {
+  
+    margin-left: 3em;
+}
+.note{
+    
+    text-align: center;
+}
+.footer{
+    margin-top: 0px;
+}

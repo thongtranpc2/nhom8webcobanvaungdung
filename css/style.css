@@ -1,0 +1,745 @@
+:root{
+    --text-color: #fff ;
+    --main-color: #fe9c8f;
+    --boldmain-color:#d67f74;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.text-init{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-init p{
+    font-family: 'Dancing Script', cursive;
+    color: var(--main-color);
+    font-size: 2.1875em; 
+}
+.text-init h2{
+    font-size: 4.0625em;
+}
+.btn-viewmore{
+    text-align: center;
+    margin: 20px auto;
+
+}
+.btn-viewmore a{
+    display: inline-block;
+    text-decoration: none;
+    color:var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 21px 62px;
+}
+.btn-viewmore a:hover{
+    background-color: var(--boldmain-color);
+    transition: 0.3s;
+
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Phan header */
+
+.header{
+    height: 3.75em;
+    background-color: var(--main-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.nav-PC
+{
+    justify-content:space-between;
+}
+.header-nav
+{
+    justify-content: flex-start;
+}
+    /* Phan logo */
+
+.header-logo{
+    margin-left: 2px;
+    width: 100px;
+    height: 3.75em;
+}
+.header-logo-img img{
+    width: 100%;
+    transform: scale(0.8,0.8);
+    padding-top: 10px;
+}
+
+    /* Phan main nav */
+
+.header-nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+        /* Tung item  */
+
+.nav-item
+{
+    position: relative;
+}
+
+            /* Phan item phia tren */
+.nav-item-link{
+    text-decoration: none;
+    color: var(--text-color);
+    display: inline-block;
+    font-weight: 500;
+    line-height: 3.75em;
+    padding: 0px 20px;
+    text-align: center;
+    transition: background-color 0.1s;
+}
+.subnav-item-link{
+    text-decoration: none;
+    display: block;
+    padding: 14px 19.5px;
+    color: var(--main-color);
+    transition: background-color 0.1s;
+    
+}
+
+.nav-item-link:hover{
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
+.subnav-item-link:hover{
+    background-color:var(--main-color) ;
+    color: var(--text-color);
+}
+
+            /* Phan subnav */
+
+.nav-item .subnav-ul{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    top: 100%;
+    left: 0px;
+    background-color: var(--text-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    
+}
+.nav-item:hover .subnav-ul{
+    display: block;
+} 
+.subnav-item{
+    display: block;
+}
+.icon-list{
+    padding-right: 20px;
+}
+.icon-list .log-out
+{
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    font-weight: 500;
+    line-height: 3.5em;
+    padding: 0px 20px;
+    text-align: center;
+}
+.icon-list a i{
+    line-height: 3.5em;
+    color:var(--text-color);
+    font-size: 17px;
+    padding: 0px 12px;
+}
+.icon-list i:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.slider{
+    position: relative;
+}
+.slider-img{
+    width: 100vw;
+    height: 50vw;
+}
+.slider-img img {
+    width: 100%;
+    height: auto;
+}
+.slider-text{
+    position: absolute;
+    bottom: calc(10/100*100vw);
+    text-align: center;
+    width: 100vw;
+    color: var(--text-color);
+}
+.slider-text .slider-invite{
+    font-family: 'Dancing Script', cursive;
+    font-size: calc(0.04691*100vw);
+}
+.slider-text .slider-heading{
+    font-size:calc( 0.07818*100vw);
+}
+.slider-text .slider-extra-text{
+    font-size: calc(0.01563 * 100vw );
+    width: 65vw;
+    margin: calc(0.00781*100vw) auto 0vw;
+    line-height: calc(0.01876*100vw);
+}
+
+.content{
+    margin-top: 16px;
+}
+.content-tour{
+    margin-top: 50px;
+}
+
+.tour-list{
+    list-style: none;
+}
+.tour-item{
+    border: 0.1px solid rgb(230, 230, 230);
+    width: 25%;
+    padding: 0px 5px;
+    margin: 10px 0px 0px;
+}
+.tour-item-img{
+    height: 172px;
+    overflow: hidden;
+}
+.tour-item-img img{
+    object-fit: cover ;
+}
+.tour-item-img img:hover{
+    transform: scale(1.1,1.1);
+    transition: 0.9s;
+}
+
+.tour-mid-item{
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--main-color);
+    margin-top: 15px;
+    padding: 12px 0px;
+    color: var(--text-color);
+    font-size: 14px;
+}
+.tour-mid-item i{
+    margin-right: 5px;
+}
+
+.tour-body-item{
+    padding: 20px 35px 10px 25px;
+}
+.tour-body-item h2{
+    margin-bottom: 12px;
+}
+.tour-body-item >h2 a{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+    font-size: 22px;
+
+}
+.tour-body-item >h2 a:hover{
+    color: var(--boldmain-color);
+    transition: 0.2s;
+}
+
+.tour-body-item >p{
+    line-height: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 0.1 px;
+    font-size: 16px;
+}
+.tour-body-item >div{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.tour-body-item >div i{
+    margin-right: 5px;
+}
+
+/* PHAN CHEN VIDEO YOUTUBE */
+.content-ytb{
+    margin-top: 125px;
+}
+
+.ytb-video{
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    padding-top: 39.375%;
+    margin: auto;
+}
+.ytb-video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ytb-detail{
+    width: 70%;
+    margin: 45px auto 0px;
+    text-align: center;
+}
+.ytb-detail-text{
+    font-size: 17px;
+    line-height: 28px;
+}
+.ytb-detail-link{
+    margin-top: 30px;
+}
+.ytb-detail-link a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding:21px 62px;
+    border-radius:6px ;
+    transition: 0.3s;
+}
+.ytb-detail-link a:hover{
+    background-color: var(--boldmain-color);
+    transition: 0.3s;
+
+    /* text-decoration: none;
+    color: #fff; */
+}
+
+
+/* PHAN REVIEW */
+.content-review{
+    margin-top: 40px;
+}
+
+.review-list{
+    list-style: none;
+}
+.review-item {
+    width: 33.33333%;
+    background-color: var(--text-color);
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-rv-body{
+    padding: 10px 0px 0px 25px;
+    flex: 2;
+    font-size: 18px;
+}
+.item-rv-body >a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.item-rv-body >a:hover{
+    color: var(--boldmain-color);
+    transition: 0.2s;
+}
+.item-rv-img{
+    flex: 1;
+}
+
+.item-rv-icon{
+    margin-bottom: 10px;
+}
+.item-rv-icon i{
+    color: var(--main-color);
+    padding-right: 3px;
+    font-size: 12px;
+}
+
+.item-rv-body >p{
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.item-rv-sig{
+    font-size: 14px;
+}
+
+/* PHAN TIM KIEM */
+.content-find{
+    margin-top: 100px;
+}
+
+.find-item {
+    width: 33.33333%;
+    margin-top: 15px;
+}
+.find-item-img{
+    height: 220px;
+    overflow: hidden;
+    padding : 0px 5px;
+}
+
+.find-item-img img:hover{
+    filter: opacity(0.8);
+    transition: 0.5s;
+}
+
+.find-item-body{
+    margin-top: 20px;
+    text-align: center;
+}
+.find-item-body >a{
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+.find-item-body >a:hover{
+    color: var(--boldmain-color);
+    transition: 0.2s;
+}
+.find-item-body p{
+    line-height: 27px;
+    letter-spacing: 0.1px;
+    width: 90%;
+    margin: 0px auto;
+    font-size: 16px;
+}
+.find-item-body .btn-viewmore a{
+    padding: 15px 20px;
+    letter-spacing: 0.3px;
+}
+.find-item-body .btn-viewmore a i{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+/* WHY CHOOSE US */
+
+
+.content-why{
+    margin-top: 125px;
+}
+
+
+.why-list{
+    margin-top: 70px;
+}
+.why-list-item{
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+.why-item {
+    width: 33.33333%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.why-item-img{
+    flex: 1.2;
+    height: 100%;
+    overflow: hidden;
+}
+.why-item-img img{
+    width: 75%;
+}
+.why-item-body{
+    flex: 3;
+}
+.why-item-body h2{
+    font-size: 24px;
+    color: var(--boldmain-color);
+    margin-bottom: 5px;
+}
+.why-item-body p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 95%;
+}
+
+/* PHAN FOOTER */
+.footer{
+    margin-top: 125px;
+    background-color: rgb(32, 32, 32);
+}
+.main-footer{
+    width: 92%;
+    margin: 0px auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.footer a{
+    text-decoration: none;
+}
+.body-footer-section{
+    width: 25%;
+    padding: 0px 10px;
+    text-align: center;
+    color : gray;
+}
+
+/* PHAN1 */
+.footer-img{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.footer-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.footer-infor{
+    margin-top: 20px;
+}
+.footer-infor i{
+    min-width: 25px;
+}
+.footer-infor a{
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-infor-section{
+    margin-top: 7px;
+    font-size: 14px;
+    text-align: left; 
+    color: #fff;
+    text-align: center;
+}
+.footer-img-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: gray;
+}
+
+/* PHAN 2 */
+.head-text-recent-post{
+    font-size: 18px;
+    color :#fff;
+}
+.body-recent-post{
+    font-size: 14px;
+}
+.body-recent-post-item{
+    margin-bottom: 20px;
+}
+.recent-post-location{
+    display: inline-block;
+}
+.recent-post-time{
+    display: block;
+    color:#fff;
+    margin-top: 10px;
+}
+
+/* PHAN 3 */
+.head-text-subscribe{
+    font-size: 18px;
+    color: #fff;
+}
+.sub-text-subscribe{
+    font-size: 14px;
+    margin-top: 22px;
+    color:gray;  
+}
+.body-subscribe{
+    margin-top: 30px;
+    width: 100%;
+} 
+.form-name{
+    background-color:var(--text-color);
+    border: none;
+    padding: 15px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-email{   
+    border: none;
+    background-color:var(--text-color);
+    padding: 15px 15px;
+    width: 100%;
+    margin-bottom: 10px;   
+}
+.form-submit{
+    color: #000;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    background-color: var(--main-color);
+    border: none;
+    padding: 15px 0px;
+}
+.form-submit:hover {
+    background-color: var(--text-color);
+    transition: 0.5s;
+}
+
+/* PHAN 4 */
+.head-text-social-network{
+    font-size: 18px;
+    color: #fff;
+}
+.body-social-network{
+    margin-top: 20px;
+     /* justify-content: flex-start;  */
+    display: flex;
+    justify-content: space-around;
+}
+.body-social-network a{
+    display: inline-block;
+     /* margin-right: 30px;  */
+}
+.body-social-network a i{
+    color: var(--text-color);
+    font-size: 30px;
+}
+
+/* PHAN BAN QUYEN */
+.sub-footer{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sub-footer span{
+    color: gray;
+}
+
+/* PHAN RESPONSIVE */
+
+.nav-bar-mobile{
+    color: var(--text-color);
+    font-size: 1.875em;
+    margin-left: 0.625em;
+    display: none;
+}
+.nav__input:checked ~ .nav-overlay-mobile{
+    display: block;
+}
+.nav__input:checked ~ .nav-mobile{
+    transform: translateX(0%);
+}
+.nav-overlay-mobile
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.nav-mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom :0;
+    width: 300px;
+    max-width: 100%;
+    background-color: var(--text-color);
+    transform: translateX(-100%);
+    transition: transform linear 0.2s;
+    background-color: var(--text-color);
+}
+.nav-mobile-list{
+    margin: 50px 0px 0px 0px;
+    list-style: none;
+}
+.nav-mobile-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #000;
+    padding: 15px 15px;
+    transition: background-color 0.1s;
+    display: block;
+    border-bottom: 1px solid var(--main-color);
+}
+.nav-mobile-link:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.nav-close-mobile{
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    color: var(--main-color);
+    font-size: 30px;
+}
+.subnav-mobile{
+    display: none;
+}
+
+.subnav-mobile-item-link{
+    text-decoration: none;
+    color: #000;
+    padding: 15px 40px;
+    display: block;
+    transition: background-color 0.1s;
+    font-size: 16px;
+}
+.subnav-mobile-item-link:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.nav-mobile-list li:hover > .subnav-mobile{
+    display: block;
+}
+.nav-mobile-ic
+{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-mobile-logo{
+    height: 3.75em;
+    display: none;
+
+}
+.nav-mobile-logo img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.8, 0.8);
+    object-fit: contain;
+}
+.nav-bar-mobile-account i{
+    color: var(--text-color);
+    font-size: 1.875em;
+    margin-right: 0.625em;
+    display: none;
+}
+

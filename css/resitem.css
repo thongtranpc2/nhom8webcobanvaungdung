@@ -1,0 +1,89 @@
+.row
+{
+    flex-wrap: wrap;
+}
+ /* Mobile width < 500px */
+@media only screen and ( max-width : 31.1875em)
+{
+    .main-gt .item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .body-footer-section 
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .gt-item-content{
+        margin: 15px 0px 30px;
+    }
+    .gt-item-img img
+    {
+        width: 80%;
+        height: auto;
+    }
+    .gt-item-img
+    {
+        text-align: center;
+    }
+
+}
+/* Tablet : width >= 500px and width < 910 px */
+@media only screen and ( min-width: 31.25em) and (max-width : 56.875em)
+{
+    .body-footer-section 
+    {
+        width: 50%;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .main-gt .item
+    {
+        width: 50%;
+        margin-bottom: 20px ;
+    }
+    .main-gt
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gt-item-content{
+        flex: 1;
+        padding-right: 30px;
+    }
+    .gt-item-img
+    {
+        flex: 1;
+        text-align: center;
+        height: 70%;
+    }
+
+
+}
+/* width < 910 px */
+@media only screen and (max-width : 56.875em)
+{
+    .mobile-infor-booking
+    {
+        display: block;
+    }
+    .infor-booking
+    {
+        display: none;
+    }
+    .noidungtour
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and ( max-width : 1023px)
+{
+    .nav-bar-mobile, .nav-mobile-logo,.nav-bar-mobile-account i
+    {
+        display: block;
+    }
+    .nav-PC{
+        display: none;
+    }
+}

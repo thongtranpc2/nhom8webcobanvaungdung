@@ -1,0 +1,120 @@
+.row{
+    flex-wrap: wrap;
+}
+
+
+ /* Mobile width < 740px */
+@media only screen and ( max-width : 46.1875em)
+{
+    html{
+        font-size: 12px;
+    }
+    .text-init h2{
+        font-size: 3.2em;
+    }
+    .tour-item{
+        width: 100%;
+    }
+    .review-item {
+        width: 100%;
+        padding: 10px;
+    }
+    .ytb-video iframe{
+        width: 100%;
+    }
+    .find-item {
+        width: 100%;
+    }
+    .ytb-video{
+        width: 80%;
+        padding-top: 45%;
+    }
+    .ytb-detail{
+        width: 80%;
+    }
+    .why-item {
+        width: 100%;;
+    }
+    .body-footer-section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .slider-text .slider-invite{
+        font-family: 'Dancing Script', cursive;
+        font-size: calc(0.06*100vw);
+    }
+    .slider-text .slider-heading{
+        font-size:calc( 0.09*100vw);
+    }
+    .slider-text .slider-extra-text{
+        font-size: calc(0.027 * 100vw );
+        width: 75vw;
+        margin: calc(0.008*100vw) auto 0vw;
+        line-height: calc(0.036*100vw);
+    }
+    .slider-text{
+        bottom: calc(12/100*100vw);
+    }
+    .slider-img{
+        width: 100vw;
+        height: 60vw;
+    }
+    .slider-img img {
+        width: 100%;
+        height: 100%;
+    }
+}
+/* Tablet : width >= 740px and width < 1024 px */
+@media only screen and ( min-width: 46.25em) and (max-width : 63.9375em)
+{
+
+    .tour-item{
+        width: 50%;
+    }
+    .review-item {
+        width: 50%;
+        padding: 20px;
+    }
+    .find-item {
+        width: 50%;
+    }
+
+    .why-item {
+        width: 50%;
+    }
+    .ytb-video{
+        width: 85%;
+        padding-top: 47.8125%;
+    }
+    .ytb-detail{
+        width: 85%;
+    }
+    .body-footer-section {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .slider-text .slider-extra-text{
+        font-size: calc(0.02 * 100vw );
+        width: 70vw;
+        margin: calc(0.008*100vw) auto 0vw;
+        line-height: calc(0.025*100vw);
+    }
+
+}
+
+@media only screen and ( max-width : 1023px)
+{
+    .nav-bar-mobile, .nav-mobile-logo,.nav-bar-mobile-account i
+    {
+        display: block;
+    }
+    .nav-PC{
+        display: none;
+    }
+}
+/* PC : width >=1024 px */
+@media only screen and ( min-width : 64em)
+{
+
+}
+
